@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.container {
+   
+    max-width: 500px;
+    height: 400px;
+    margin-top: 80px;
+    margin-left: 360px;
+    background-color: #635f5f;
+    padding: 30px;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+h1 {
+    color: #e2dddd;
+    text-align: center;
+}
+
+label {
+    color: #333;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #111111;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #323332;
+}
+
+h2 {
+    color: #333;
+    margin-top: 20px;
+}
+
+#prefixedExpression {
+    width: 480px;
+    font-size: 18px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
